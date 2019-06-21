@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      uri: http://127.0.0.1:4000 #配置服务器
+      label: master #分支
+      name: application-service #github上面名称
+      profile: dev #环境
